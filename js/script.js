@@ -11,7 +11,7 @@ function addTodo() {
     if (userInput.trim() == '') {
         return
     }
-    var newTodo = { id: Math.random(), value : userInput }
+    var newTodo = { id: _.uniqueId(), value : userInput }
     todos.push(newTodo)
     $('<li>' + userInput + '</li>')
         .appendTo(ulElement)
