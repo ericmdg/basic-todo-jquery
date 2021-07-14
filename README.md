@@ -1,2 +1,2 @@
-# basic-todo-jquery
-Basic todo with jQuery
+# Basic todo with jQuery
+
